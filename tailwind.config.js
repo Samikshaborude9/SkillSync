@@ -10,8 +10,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        jakarta: ['"Plus Jakarta Sans"', 'sans-serif'],
+       fontFamily: {
+        jakarta: ['var(--font-jakarta)'],
       },
     },
   },

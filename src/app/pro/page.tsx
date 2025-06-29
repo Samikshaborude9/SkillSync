@@ -12,6 +12,7 @@ import {
   Shield,
   Headphones
 } from 'lucide-react';
+import Image from 'next/image';
 
 const plans = [
   {
@@ -314,7 +315,7 @@ export default function ProFeatures() {
                 className="bg-white rounded-xl shadow-sm border border-gray-200 p-6"
               >
                 <div className="flex items-center mb-4">
-                  <img
+                  <Image
                     src={testimonial.image}
                     alt={testimonial.name}
                     className="w-12 h-12 rounded-full mr-4"
@@ -324,7 +325,7 @@ export default function ProFeatures() {
                     <p className="text-sm text-gray-600">{testimonial.role} at {testimonial.company}</p>
                   </div>
                 </div>
-                <p className="text-gray-700 italic">"{testimonial.quote}"</p>
+                <p className="text-gray-700 italic">&quot;{testimonial.quote}&quot;</p>
               </motion.div>
             ))}
           </div>
