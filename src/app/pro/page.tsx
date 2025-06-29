@@ -124,7 +124,6 @@ const faqs = [
 ];
 
 export default function ProFeatures() {
-  const [selectedPlan, setSelectedPlan] = useState('pro');
   const [billingCycle, setBillingCycle] = useState('monthly');
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
 

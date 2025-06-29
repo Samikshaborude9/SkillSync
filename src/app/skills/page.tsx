@@ -8,7 +8,6 @@ import {
   Star, 
   Download,
   ExternalLink,
-  Plus,
   CheckCircle,
   Clock,
   Zap

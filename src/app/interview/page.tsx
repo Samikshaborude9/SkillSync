@@ -6,8 +6,6 @@ import {
   Video, 
   Play, 
   Pause, 
-  RotateCcw, 
-  Settings,
   Mic,
   MicOff,
   Camera,

@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import { 
   Mic, 
   MicOff, 
-  Play, 
   Pause, 
   RotateCcw,
   Volume2,

@@ -5,8 +5,6 @@ import { motion } from 'framer-motion';
 import { 
   ArrowRight, 
   Sparkles, 
-  Users, 
-  Trophy,
   FileText,
   Video,
   Mic,
