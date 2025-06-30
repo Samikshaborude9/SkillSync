@@ -369,9 +369,9 @@ export default function VoiceFeedback() {
               transition={{ delay: 0.3 }}
               className="bg-gradient-to-r from-green-600 to-teal-600 rounded-xl p-6 text-white"
             >
-              <h3 className="text-lg font-semibold mb-2">Powered by ElevenLabs</h3>
+              <h3 className="text-lg font-semibold mb-2">Your voice is your personal brand — master it, and you will own the room.</h3>
               <p className="text-green-100 text-sm">
-                Advanced AI voice analysis technology for professional speech coaching
+                Empowering you with AI-driven feedback to speak with confidence, clarity, and impact
               </p>
             </motion.div>
           </div>
