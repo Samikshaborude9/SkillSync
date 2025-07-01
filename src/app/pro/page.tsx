@@ -111,10 +111,6 @@ const faqs = [
     answer: 'Yes, you can cancel your subscription at any time. Your access will continue until the end of your current billing period, and you won\'t be charged for the next cycle.'
   },
   {
-    question: 'Are the NFT certificates really valuable?',
-    answer: 'Our NFT certificates are minted on the Algorand blockchain and provide verifiable proof of your skills. They can be shared with employers and are recognized by many companies in the tech industry.'
-  },
-  {
     question: 'How accurate is the AI feedback?',
     answer: 'Our AI models are trained on thousands of successful interviews and resumes. The feedback accuracy is continuously improved through machine learning and user feedback.'
   },
@@ -281,8 +277,8 @@ export default function ProFeatures() {
               <div className="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mx-auto mb-4">
                 <Shield className="w-8 h-8 text-purple-600" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">NFT Certificates</h3>
-              <p className="text-gray-600 text-sm">Blockchain-verified skill certificates on Algorand</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Certificates</h3>
+              <p className="text-gray-600 text-sm">Certificates from SkillSync</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-orange-100 rounded-xl flex items-center justify-center mx-auto mb-4">
@@ -318,6 +314,8 @@ export default function ProFeatures() {
                   <Image
                     src={testimonial.image}
                     alt={testimonial.name}
+                    width={48}
+                    height={48}
                     className="w-12 h-12 rounded-full mr-4"
                   />
                   <div>
